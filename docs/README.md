@@ -1,33 +1,48 @@
 ---
 home: true
-title: Home
-heroImage: https://vuejs.press/images/hero.png
-actions:
-  - text: Get Started
-    link: /get-started.html
-    type: primary
+layout: Blog
+icon: house
+title: Blog Home
+heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroText: The name of your blog
+tagline: You can put your slogan here
+heroFullScreen: true
+projects:
+  - icon: folder-open
+    name: project name
+    desc: project detailed description
+    link: https://your.project.link
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
+  - icon: link
+    name: link name
+    desc: link detailed description
+    link: https://link.address
 
-features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - icon: book
+    name: book name
+    desc: Detailed description of the book
+    link: https://link.to.your.book
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+  - icon: newspaper
+    name: article name
+    desc: Detailed description of the article
+    link: https://link.to.your.article
+
+  - icon: user-group
+    name: friend name
+    desc: Detailed description of friend
+    link: https://link.to.your.friend
+
+  - icon: https://theme-hope-assets.vuejs.press/logo.svg
+    name: custom item
+    desc: Detailed description of this custom item
+    link: https://link.to.your.friend
+
+footer: customize your footer text
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+This is a blog home page demo.
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
+
+For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home.html).
