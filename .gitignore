@@ -1,7 +1,8 @@
-node_modules
-.cache
-.temp
 node_modules/
-./docs/.vuepress/.cache/
-./docs/.vuepress/.temp/
-./docs/.vuepress/dist/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
+
+docs_bak/.vuepress/.cache/
+docs_bak/.vuepress/.temp/
+docs_bak/.vuepress/dist/
