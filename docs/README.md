@@ -38,11 +38,6 @@ projects:
     desc: Detailed description of this custom item
     link: https://link.to.your.friend
 
-footer: customize your footer text
+footer: Mind to drop me a mail?
 ---
-
-This is a blog home page demo.
-
-To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
-
-For related configuration docs, please see [blog homepage](https://theme-hope.vuejs.press/guide/blog/home.html).
+Game is never over, we are not checkmated yet.
