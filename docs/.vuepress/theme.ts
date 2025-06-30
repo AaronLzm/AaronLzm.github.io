@@ -4,11 +4,11 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://lemonahmas.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Aaron L",
+    url: "https://lemonahmas.github.io",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -25,7 +25,7 @@ export default hopeTheme({
       Dingding: "https://example.com",
       Discord: "https://example.com",
       Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
+      Email: "mailto:lzm_aaron@outlook.com",
       Evernote: "https://example.com",
       Facebook: "https://example.com",
       Flipboard: "https://example.com",
