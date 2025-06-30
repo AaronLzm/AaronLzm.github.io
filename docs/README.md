@@ -4,8 +4,8 @@ layout: Blog
 icon: house
 title: Blog Home
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: The name of your blog
-tagline: You can put your slogan here
+heroText: Zhimou "Aaron" Li's blog
+tagline: EX NIHILO NIHIL FIT
 heroFullScreen: true
 projects:
   - icon: folder-open
