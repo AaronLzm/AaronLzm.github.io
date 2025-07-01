@@ -11,11 +11,11 @@ export default hopeTheme({
     url: "https://lemonahmas.github.io",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://avatars.githubusercontent.com/u/13514693?s=400&u=c9045dcc8b2f95cdb2be77dbec13b54ce2ec8e43&v=4",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "lemonahmas/lemonahmas.github.io",
 
-  docsDir: "src",
+  docsDir: "docs",
 
   blog: {
     medias: {
@@ -121,13 +121,13 @@ export default hopeTheme({
     tasklist: true,
     vPre: true,
 
-    // uncomment these if you need TeX support
-    // math: {
-    //   // install katex before enabling it
-    //   type: "katex",
-    //   // or install mathjax-full before enabling it
-    //   type: "mathjax",
-    // },
+    //uncomment these if you need TeX support
+    math: {
+      // install katex before enabling it
+      type: "katex",
+      // or install mathjax-full before enabling it
+      //type: "mathjax",
+    },
 
     // install chart.js before enabling it
     // chartjs: true,

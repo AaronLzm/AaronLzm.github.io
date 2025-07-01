@@ -17,6 +17,7 @@
     "sass-embedded": "^1.89.2",
     "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.23",
-    "@vuepress/plugin-blog": "2.0.0-rc.110"
+    "@vuepress/plugin-blog": "2.0.0-rc.110",
+    "katex": "^0.16.11"
   }
 }
