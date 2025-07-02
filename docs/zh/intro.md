@@ -3,11 +3,6 @@ icon: circle-info
 cover: /assets/images/cover3.jpg
 ---
 
----
-icon: circle-info
-cover: /assets/images/cover3.jpg
----
-
 # 李直谋(Aaron)
 
 ✉️ `lzm_aaron@outlook.com` | 🌐 [aaronlzm.github.io](aaronlzm.github.io) | 💼 [领英主页](www.linkedin.com/in/zhimou-li)
