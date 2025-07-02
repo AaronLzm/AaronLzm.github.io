@@ -4,16 +4,16 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://lemonahmas.github.io",
+  hostname: "https://aaronlzm.github.io",
 
   author: {
     name: "Aaron L",
-    url: "https://lemonahmas.github.io",
+    url: "https://aaronlzm.github.io",
   },
 
   logo: "https://avatars.githubusercontent.com/u/13514693?s=400&u=c9045dcc8b2f95cdb2be77dbec13b54ce2ec8e43&v=4",
 
-  repo: "lemonahmas/lemonahmas.github.io",
+  repo: "AaronLzm/AaronLzm.github.io",
 
   docsDir: "docs",
 

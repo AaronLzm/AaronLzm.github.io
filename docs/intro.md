@@ -5,7 +5,7 @@ cover: /assets/images/cover3.jpg
 
 # Zhimou(Aaron) Li
 
-✉️ `lzm_aaron@outlook.com`  | 🌐 [lemonahmas.github.io](lemonahmas.github.io)  | 💼 www.linkedin.com/in/zhimou-li 
+✉️ `lzm_aaron@outlook.com`  | 🌐 [aaronlzm.github.io](aaronlzm.github.io)  | 💼 www.linkedin.com/in/zhimou-li 
 
 ---
 
