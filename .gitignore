@@ -6,3 +6,5 @@ docs/.vuepress/dist/
 docs_bak/.vuepress/.cache/
 docs_bak/.vuepress/.temp/
 docs_bak/.vuepress/dist/
+
+.DS_Store
