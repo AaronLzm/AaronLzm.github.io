@@ -42,6 +42,7 @@ projects:
 footer: <p><a href="mailto:lzm_aaron@outlook.com">Mind to drop me a mail?</a></p>
 ---
 <script setup>
+// you cannot use custom component in Frontmatter I guess.
 import { onMounted } from "vue";
 import Typed from "typed.js"
 

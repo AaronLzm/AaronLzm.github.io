@@ -21,6 +21,7 @@
     "vuepress-theme-hope": "2.0.0-rc.93"
   },
   "dependencies": {
+    "mermaid": "^11.11.0",
     "typed.js": "^2.1.0"
   }
 }

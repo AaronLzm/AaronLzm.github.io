@@ -9,6 +9,7 @@ export default hopeTheme({
   author: {
     name: "Aaron L",
     url: "https://aaronlzm.github.io",
+    email:"lzm_aaron@outlook.com"
   },
 
   logo: "https://avatars.githubusercontent.com/u/13514693?s=400&u=c9045dcc8b2f95cdb2be77dbec13b54ce2ec8e43&v=4",
@@ -139,7 +140,7 @@ export default hopeTheme({
     // flowchart: true,
 
     // install mermaid before enabling it
-    // mermaid: true,
+    mermaid: true,
 
     // playground: {
     //   presets: ["ts", "vue"],
