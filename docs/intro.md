@@ -5,7 +5,7 @@ cover: /assets/images/cover3.jpg
 
 # Zhimou(Aaron) Li
 
-✉️ `lzm_aaron@outlook.com`  | 🌐 [aaronlzm.github.io](aaronlzm.github.io)  | 💼 www.linkedin.com/in/zhimou-li 
+✉️ [lzm_aaron@outlook.com](mailto:lzm_aaron@outlook.com) | 🌐 [aaronlzm.github.io](https://aaronlzm.github.io)  | 💼 [Linkedin](https://www.linkedin.com/in/zhimou-li) 
 
 ---
 
@@ -57,5 +57,3 @@ Hainan University | *Graduated: 2016*
 | CI/CD Pipelines| Bayesian Methods       |               | Jenkins          |  
 
 ---
-
-Mind to drop a mail?

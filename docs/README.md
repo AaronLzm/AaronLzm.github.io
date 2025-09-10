@@ -5,7 +5,7 @@ icon: house
 title: Blog Home
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: Zhimou "Aaron" Li's blog
-tagline: <span id="typed"></span>
+tagline: <span id="typed_tag"></span>
 heroFullScreen: true
 projects:
   - icon: folder-open
@@ -45,7 +45,7 @@ import { onMounted } from "vue";
 import Typed from "typed.js"
 
 onMounted(() => {
-  new Typed('#typed', {
+  new Typed('#typed_tag', {
     strings: ["EX NIHILO NIHIL FIT", "Out of <b>nothing</b>, nothing comes."],
     typeSpeed: 50,
     backSpeed: 25,
