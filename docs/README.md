@@ -3,10 +3,11 @@ home: true
 layout: Blog
 icon: house
 title: Blog Home
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: 
 heroText: Zhimou "Aaron" Li's blog
 tagline: <span id="typed_tag"></span>
 heroFullScreen: true
+bgImage: /assets/images/IMG_0976.jpg
 projects:
   - icon: folder-open
     name: project name
@@ -54,7 +55,7 @@ onMounted(() => {
     showCursor: true
   });
 });
-
 </script>
 
-Game is never over, we are not checkmated yet.
+<typedContent :strings="['Game is never over','we are not checkmated yet.',]" />
+

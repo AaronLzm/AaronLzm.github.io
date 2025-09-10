@@ -3,10 +3,11 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: 
 heroText: Zhimou "Aaron" Li's blog
 heroFullScreen: true
 tagline: EX NIHILO NIHIL FIT
+bgImage: /assets/images/IMG_0976.jpg
 
 projects:
   - icon: folder-open
