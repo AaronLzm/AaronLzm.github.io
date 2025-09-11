@@ -1,7 +1,6 @@
 ---
  title: How does diffusion model work 
 ---
-Of course. As a machine learning professor, I'd be delighted to explain the inner workings of diffusion models.
 
 At its heart, a diffusion model is a generative model, which means its primary purpose is to create new data that is similar to the data it was trained on. In the context of images, this means generating new, realistic-looking pictures. The core idea behind diffusion models is both elegant and surprisingly intuitive: **to learn how to create data, you should first learn how to destroy it.**
 
