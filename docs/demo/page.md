@@ -24,6 +24,7 @@ star: false
 footer: Footer content for test
 # You can customize copyright content
 copyright: No Copyright
+article: false
 ---
 
 Content before `more` comment is regarded as page excerpt.

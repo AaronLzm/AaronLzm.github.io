@@ -19,7 +19,7 @@ prev: false
 next: false
 comment: false
 footer: false
-
+article: false
 backtotop: false
 ---
 

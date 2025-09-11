@@ -1,6 +1,8 @@
 ---
 icon: circle-info
 cover: /assets/images/cover3.jpg
+star: true
+sticky: true
 ---
 
 # Zhimou(Aaron) Li
