@@ -1,3 +1,6 @@
+---
+ title: Why we are assuming all weight distributions are Gaussian 
+---
 #Bayes 
 
 ---

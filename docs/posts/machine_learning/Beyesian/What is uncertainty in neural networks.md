@@ -1,3 +1,6 @@
+---
+ title: What is uncertainty in neural networks 
+---
 #Bayes 
 
 在深度神经网络中，不确定性通常分为两种类型：模型不确定性（或称为认知不确定性）和数据不确定性（或称为偶发不确定性）。

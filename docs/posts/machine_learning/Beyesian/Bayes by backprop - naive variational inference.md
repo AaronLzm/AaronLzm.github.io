@@ -1,3 +1,6 @@
+---
+ title: Bayes by backprop - naive variational inference 
+---
 #Bayes 
 ### GPT content:
 "Bayes by Backprop"的核心是使用变分推理来近似权重的后验分布。这一过程涉及到一些复杂的数学，但我会尽力将其分解为详细的步骤。

@@ -1,3 +1,6 @@
+---
+ title: KL and JS divergence 
+---
 好的，这是一个非常自然的延伸问题。Jensen-Shannon Divergence (JS散度) 正是为了克服KL散度的一些主要缺点而设计的。
 
 ### 什么是Jensen-Shannon Divergence（JS散度）？

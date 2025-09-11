@@ -1,3 +1,6 @@
+---
+ title: Transformer it self 
+---
 ![[Pasted image 20240414153828.png]]
 Transformer 基于现有的序列-序列模型，使用 **「encoder-decoder」** 架构。在 encoder-decoder 架构中，编码器（encoder）将输入序列 $(x_1, \ldots,x_n)$ 转换为一个连续的表达 $\mathbf{z}=\left(z_{1}, \dots, z_{n}\right)$ ，然后解码器再基于该表达生成输出序列 $(y_1, \ldots, y_m)$。
 

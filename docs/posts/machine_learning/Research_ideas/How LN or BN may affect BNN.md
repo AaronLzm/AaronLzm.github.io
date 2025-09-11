@@ -1,3 +1,6 @@
+---
+ title: How LN or BN may affect BNN 
+---
 随机变分推断神经网络（Variational Inference Neural Networks）是一种通过引入随机性而能够在预测中考虑不确定性的神经网络。为了理解Layer Normalization或Batch Normalization如何影响这种网络对不确定性的测量，首先我们需要了解这两种归一化技术的基本概念。
 
 1. Layer Normalization：Layer Normalization是一种在深度神经网络中用来加速学习的技术。它通过对网络中每一层的输出进行归一化，使得每一层的输出都具有类似的分布。这样可以降低训练过程中的内部协变量偏移，从而加速学习过程。

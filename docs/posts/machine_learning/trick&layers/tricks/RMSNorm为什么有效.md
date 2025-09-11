@@ -1,3 +1,6 @@
+---
+ title: RMSNorm为什么有效 
+---
 好的，这是一个非常深入且重要的问题。RMSNorm（Root Mean Square Normalization）是深度学习模型中一种重要的**归一化技术**，我们可以将其理解为对更著名的**LayerNorm（层归一化）** 的一个简化且高效的改进版本。
 
 它由清华大学团队在2019年的论文《Root Mean Square Layer Normalization》中提出，并已被广泛应用于诸如LLaMA、GPT-NeoX等众多现代大语言模型中。

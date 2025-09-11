@@ -1,3 +1,6 @@
+---
+ title: ViT 
+---
 ### Vision Transformer (ViT)：从文本到图像的革命性跨越
 
 Vision Transformer (ViT) 的出现，标志着深度学习领域的一个重要转折点。它成功地将原本在自然语言处理（NLP）领域大放异彩的 Transformer 模型，应用于计算机视觉领域，并取得了与顶级卷积神经网络（CNN）相媲美的性能。要理解 ViT 的精髓，我们需要先深入了解它在传统 Encoder-Decoder Transformer 架构上所做的关键改变，并剖析其处理图像数据的每一步。

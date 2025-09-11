@@ -1,3 +1,6 @@
+---
+ title: Laplace Approximation 
+---
 #Bayes 
 
 拉普拉斯近似是一种简单且计算效率高的方法，它假设后验分布在最大后验概率（MAP）点附近是高斯的。步骤如下：

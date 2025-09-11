@@ -1,3 +1,6 @@
+---
+ title: 单头 single head attention 
+---
 下面我将详细解释**单头注意力（Single-Head Attention）**的数学机制，包含所有关键公式的推导和说明。整个过程分为 5 个步骤：
 
 ---

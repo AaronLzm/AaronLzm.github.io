@@ -1,3 +1,6 @@
+---
+ title: How attention might affect BNN 
+---
 
 首先，让我们分步解释这个问题的各个部分，然后再深入讨论可能的答案。
 

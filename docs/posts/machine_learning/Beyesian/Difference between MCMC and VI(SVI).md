@@ -1,3 +1,6 @@
+---
+ title: Difference between MCMC and VI(SVI) 
+---
 #Bayes 
 
 MCMC（Markov Chain Monte Carlo）和变分推断（Variational Inference）都是用于估计后验分布的技术，但它们在处理复杂度、精度和计算速度等方面存在一些差异。以下是这两种方法的优点和缺点的对比：

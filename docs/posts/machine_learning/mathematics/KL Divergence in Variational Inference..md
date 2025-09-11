@@ -1,3 +1,6 @@
+---
+ title: KL Divergence in Variational Inference. 
+---
 非常好且深刻的问题！你触及了变分推断（Variational Inference, VI）的核心。
 
 是的，**KL散度非常适合用来做变分推断，而这正是因为它天然地、数学必然地成为了证据下界（ELBO）的一部分**。这两者不是简单的“适合”关系，而是**从解决VI核心问题的数学推导中，KL散度自然而然地“浮现”了出来**。

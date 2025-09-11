@@ -1,3 +1,6 @@
+---
+ title: How to build EBMs 
+---
 Of course, let's break down Energy-Based Models (EBMs) step by step.
 
 ### Step 1: Understanding the Core Concept of Energy-Based Models

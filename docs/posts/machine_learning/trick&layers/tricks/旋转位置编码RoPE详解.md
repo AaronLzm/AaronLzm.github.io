@@ -1,3 +1,6 @@
+---
+ title: 旋转位置编码RoPE详解 
+---
 作为资深的机器学习专家，我将总结Rotary Position Embedding (RoPE) 这一机器学习问题，并仔细分析其算法优点。RoPE是一种用于Transformer模型的位置编码方法，旨在处理序列数据中的位置信息。它通过旋转矩阵编码位置，使得模型能够捕获相对位置关系，从而提升性能。以下将详细介绍RoPE的数学形式、算法原理，并对比其他嵌入方法突出其优越性。
 
 ### 1. Rotary Position Embedding (RoPE) 总结

@@ -1,3 +1,6 @@
+---
+ title: I-JEPA and ViT 
+---
 ## I-JEPA 深入解析：它不仅是ViT，更是一种创新的自监督学习框架
 
 近期备受关注的I-JEPA（Image-based Joint-Embedding Predictive Architecture，基于图像的联合嵌入预测架构）并非简单等同于Vision Transformer (ViT)，而是一种巧妙运用ViT作为其核心构建模块的自监督学习算法。从本质上讲，I-JEPA是一个学习框架，旨在让模型像人类一样，通过理解世界的基本模式来学习，而不仅仅是记忆像素细节。

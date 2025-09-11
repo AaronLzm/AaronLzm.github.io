@@ -1,3 +1,6 @@
+---
+ title: Prior Uncertainty - A Key Hurdle in Advancing Bayesian Machine Learning 
+---
 ### Prior Uncertainty: A Key Hurdle in Advancing Bayesian Machine Learning
 
 Bayesian inference in machine learning is currently significantly restrained by the challenge of undetermined prior settings. While not the sole obstacle, the selection of appropriate prior distributions is a critical and often unresolved issue that fundamentally impacts the performance and reliability of Bayesian models, particularly in the complex domain of deep learning.

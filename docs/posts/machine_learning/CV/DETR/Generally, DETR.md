@@ -1,3 +1,6 @@
+---
+ title: Generally, DETR 
+---
 ### DETR算法：基于Transformer的端到端目标检测新范式
 
 DETR（DEtection TRansformer）是一种基于Transformer架构的端到端目标检测算法，由Facebook AI Research（现为Meta AI）于2020年提出。它的核心思想是将目标检测任务视为一个集合预测问题，从而摒弃了传统目标检测方法中许多需要手动设计的组件，如非极大值抑制（NMS）和锚框（Anchor）。

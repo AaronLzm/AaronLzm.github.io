@@ -1,3 +1,6 @@
+---
+ title: How does diffusion model work 
+---
 ##### user
 How does diffusion model work?
 

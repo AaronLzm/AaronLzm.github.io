@@ -1,6 +1,6 @@
 import sys,os
 
-posts_dir = os.path.abspath("../machine_learning")
+posts_dir = os.path.abspath("../docs/posts/machine_learning")
 print(posts_dir)
 
 def add_title(path):
@@ -15,9 +15,8 @@ def add_title(path):
                 if old.startswith("---\n title:"):
                     continue
                 else:
-                    with open(os.path.join(path,"blogged-"+i),"w") as fp:
-                        fp.seek(0,0)
-                        fp.write(f"\n---\n title: {name} \n---\n")
-                        fp.write(old)
+                    f.seek(0,0)
+                    f.write(f"---\n title: {name} \n---\n")
+                    f.write(old)
 
 add_title(posts_dir)

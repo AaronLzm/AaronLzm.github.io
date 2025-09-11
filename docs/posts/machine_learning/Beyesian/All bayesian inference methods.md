@@ -1,3 +1,6 @@
+---
+ title: All bayesian inference methods 
+---
 #Bayes 
 
 1. Variational Inference

@@ -1,3 +1,6 @@
+---
+ title: multi head attention 
+---
 ### 多头注意力（Multi-Head Attention）数学详解
 
 多头注意力是 Transformer 的核心机制，它通过并行执行多个独立的注意力头（attention heads）来捕捉输入的不同表示子空间。以下是完整的数学推导（所有公式用 `$` 包裹）：

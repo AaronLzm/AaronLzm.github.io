@@ -1,3 +1,6 @@
+---
+ title: layer normalization - batch normalization 
+---
 GPT answer:
 
 Batch Normalization和Layer Normalization都是深度学习中的一种技术，用来防止梯度消失或者梯度爆炸，从而让神经网络更好地学习。它们的主要区别在于归一化的维度不同。

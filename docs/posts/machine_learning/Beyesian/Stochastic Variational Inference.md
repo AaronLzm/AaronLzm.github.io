@@ -1,3 +1,6 @@
+---
+ title: Stochastic Variational Inference 
+---
 #Bayes 
 
 使用随机变分推断（Stochastic Variational Inference, SVI）来更新深度学习中神经网络权重的过程涉及到几个步骤。以下是详细的步骤，包括相关的数学公式：

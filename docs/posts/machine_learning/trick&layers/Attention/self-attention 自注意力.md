@@ -1,3 +1,6 @@
+---
+ title: self-attention 自注意力 
+---
 太好了！这是一个核心问题。**Self-Attention（自注意力）** 是注意力机制的一种特殊形式，也是Transformer模型成功的基石。
 
 简单来说：
