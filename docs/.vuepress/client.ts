@@ -9,11 +9,11 @@ export default defineClientConfig({
 
     // 注册路由守卫
     router.beforeEach((to) => {
-      console.log("before navigation");
+      console.log("before navigation"+"-"+to.fullPath);
     });
 
     router.afterEach((to) => {
-      console.log("after navigation");
+      console.log("after navigation"+"-"+to.fullPath);
     });
   },
 
