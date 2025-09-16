@@ -131,13 +131,13 @@ export default hopeTheme({
     },
 
     // install chart.js before enabling it
-    // chartjs: true,
+    chartjs: true,
 
     // install echarts before enabling it
     // echarts: true,
 
     // install flowchart.ts before enabling it
-    // flowchart: true,
+    flowchart: true,
 
     // install mermaid before enabling it
     mermaid: true,
@@ -168,6 +168,31 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+
+    slimsearch:{
+      locales: {
+            "/": { placeholder: "Search" },
+            "/zh/": { placeholder: "搜索" },
+          },
+          indexContent: true,
+          suggestion: true,
+          hotKeys: [{ key: "k", ctrl: true }, { key: "/", ctrl: true }],
+        
+    },
+
+    comment:{
+      provider:"Giscus",
+      repo: "AaronLzm/BlogGiscusRepo",
+      repoId:"R_kgDOPwyqlw",
+      category: "General",
+      categoryId:"DIC_kwDOPwyql84Cvf-v",
+    },
+
+    copyright: {
+      global: true,
+      disableCopy: true,
+      disableSelection: true,
+    },
 
     components: {
       components: ["Badge", "VPCard"],

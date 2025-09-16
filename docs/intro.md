@@ -1,17 +1,20 @@
 ---
 icon: circle-info
-cover: /assets/images/cover3.jpg
+cover: /assets/images/stars.jpg
 star: true
 sticky: true
+title: Curriculum Vitae
 ---
 
-# Zhimou(Aaron) Li
+<center><font size=6rem>Zhimou(Aaron) Li</font></center>
 
-✉️ [lzm_aaron@outlook.com](mailto:lzm_aaron@outlook.com) | 🌐 [aaronlzm.github.io](https://aaronlzm.github.io)  | 💼 [Linkedin](https://www.linkedin.com/in/zhimou-li) 
+<p style="text-align: center;"> <a href="mailto:lzm_aaron@outlook.com">✉️ lzm_aaron@outlook.com</a> | <a href="https://aaronlzm.github.io">🌐 aaronlzm.github.io</a> | <a href="https://www.linkedin.com/in/zhimou-li">💼 Linkedin</a> </p>
+
+<!-- ✉️ [lzm_aaron@outlook.com](mailto:lzm_aaron@outlook.com) | 🌐 [aaronlzm.github.io](https://aaronlzm.github.io)  | 💼 [Linkedin](https://www.linkedin.com/in/zhimou-li) -->
 
 ---
 
-## 🎯 Professional Summary  
+## 🎯 Brief Summary  
 Cloud & ML engineer with 5+ years experience. Proven ability to:  
 - Build scalable cloud services (Azure PaaS products/Kubernetes)  
 - Implement ML pipelines for real-world applications
