@@ -14,13 +14,13 @@ def remove_toml(path):
                     line = f.readline()
                     if line == "":
                         break
-                    if line.startswith("---"):
+                    if line.decode(encoding="utf-8").startswith("---"):
                         split_counter += 1
                     if split_counter == 2:
                         f.seek(f.tell())
                         new = f.read()
+                        f.seek(0)
                         f.write(new)
                         break
-
 
 remove_toml(posts_dir)
