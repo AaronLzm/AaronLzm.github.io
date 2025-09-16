@@ -14,6 +14,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/plugin-blog": "2.0.0-rc.112",
+    "@vuepress/plugin-revealjs": "^2.0.0-rc.112",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.112",
     "katex": "^0.16.11",
     "sass-embedded": "^1.89.2",

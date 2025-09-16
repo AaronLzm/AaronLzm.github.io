@@ -5,6 +5,9 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://aaronlzm.github.io",
+  
+  focus:true,
+  fullscreen:true,
 
   author: {
     name: "Aaron L",
@@ -19,6 +22,7 @@ export default hopeTheme({
   docsDir: "docs",
 
   blog: {
+    timeline:"Revisiting the past -",
     medias: {
       Email: "mailto:lzm_aaron@outlook.com",
     },
@@ -32,7 +36,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "Mind to drop me a mail?",
+      footer: "<a href='mailto:lzm_aaron@outlook.com'>✉️ Drop me a mail!</a>",
 
       displayFooter: true,
 
@@ -56,7 +60,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "邮件聊聊？",
+      footer: "<a href='mailto:lzm_aaron@outlook.com'>✉️ Drop me a mail!</a>",
 
       displayFooter: true,
 
@@ -90,6 +94,10 @@ export default hopeTheme({
 
   // These features are enabled for demo, only preserve features you need here
   markdown: {
+    revealjs: true,
+    footnote: true,
+    hint: true, 
+    alert: true,
     align: true,
     attrs: true,
     codeTabs: true,
