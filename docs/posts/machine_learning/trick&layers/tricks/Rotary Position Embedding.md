@@ -1,3 +1,6 @@
 ---
- title: Rotary Position Embedding 
+title: Rotary Position Embedding
+category: Machine Learning
+tags: [Machine Learning,tricks]
+
 ---

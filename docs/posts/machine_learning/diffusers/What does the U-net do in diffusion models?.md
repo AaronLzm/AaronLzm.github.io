@@ -1,5 +1,8 @@
 ---
 title: What does the U-net do in diffusion models?
+category: Machine Learning
+tags: [Machine Learning,diffusers]
+
 ---
 
 At its core, the U-Net in a diffusion model acts as the engine of the reverse diffusion process. In simple terms, diffusion models work by first progressively adding noise to an image until it becomes pure noise (the forward process) and then learning to reverse this process to generate a new image from random noise (the reverse process). The U-Net is the neural network trained to perform this reversal, step by step.
@@ -31,4 +34,4 @@ Now, let's delve into the finer technical points of why the U-Net is so well-sui
     *   **Attention Mechanisms:** Self-attention blocks are often integrated, particularly at lower resolutions in the U-Net. This allows the network to weigh the importance of different spatial locations in the image, enabling it to model long-range dependencies and understand the relationships between different parts of the image more effectively.
     *   **Cross-Attention for Conditioning:** In text-to-image models, the U-Net is further conditioned on the text prompt. This is often achieved by injecting the text embeddings into the U-Net using cross-attention layers. These layers allow the network to "pay attention" to relevant parts of the text prompt when generating different parts of the image.
 
-In summary, the U-Net is not just an arbitrary choice of architecture; its inherent design is exceptionally well-suited for the iterative denoising process at the heart of diffusion models. Its ability to capture both high-level context and preserve fine-grained detail, all while being conditioned on the noise level (timestep), makes it the powerful and effective backbone for generating the high-quality images we see from modern diffusion models.
+In summary, the U-Net is not just an arbitrary choice of architecture; its inherent design is exceptionally well-suited for the iterative denoising process at the heart of diffusion models. Its ability to capture both high-level context and preserve fine-grained detail, all while being conditioned on the noise level (timestep), makes it the powerful and effective backbone for generating the high-quality images we see from modern diffusion models.he high-quality images we see from modern diffusion models.

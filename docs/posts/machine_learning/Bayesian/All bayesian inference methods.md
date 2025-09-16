@@ -1,5 +1,8 @@
 ---
- title: All bayesian inference methods 
+title: All bayesian inference methods
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 
@@ -7,4 +10,5 @@
 2. Markov Chain Monte Carlo
 3. Laplace Approximation
 4. Stochastic Variational Inference
+5. Expectation-Maximization Algorithm Inference
 5. Expectation-Maximization Algorithm

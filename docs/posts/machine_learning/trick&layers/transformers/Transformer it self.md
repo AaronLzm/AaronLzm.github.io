@@ -1,5 +1,8 @@
 ---
- title: Transformer it self 
+title: Transformer it self
+category: Machine Learning
+tags: [Machine Learning,transformers]
+
 ---
 ![[Pasted image 20240414153828.png]]
 Transformer 基于现有的序列-序列模型，使用 **「encoder-decoder」** 架构。在 encoder-decoder 架构中，编码器（encoder）将输入序列 $(x_1, \ldots,x_n)$ 转换为一个连续的表达 $\mathbf{z}=\left(z_{1}, \dots, z_{n}\right)$ ，然后解码器再基于该表达生成输出序列 $(y_1, \ldots, y_m)$。
@@ -17,4 +20,6 @@ Transformer 基于现有的序列-序列模型，使用 **「encoder-decoder」
 
 解码器的输出被输入到一个线性层中，转化为一个超长向量（词典长度），再输入到 softmax 层中转化为概率，最后运用适当策略（如贪婪搜索或束搜索）选择输出的词语，注意 **「一次只输出一个词语」** 。已输出的序列会作为解码器的输入。下图给出了贪婪搜索策略下的运行流程。
 ![[Pasted image 20240414165245.png]]
+
+[[Pasted image 20240414165245.png]]
 

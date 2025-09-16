@@ -1,5 +1,8 @@
 ---
- title: Regularization for Deep Learning 
+title: Regularization for Deep Learning
+category: Machine Learning
+tags: [Machine Learning,mathematics]
+
 ---
 这是一个非常棒的问题，它触及了传统机器学习与深度学习之间核心思想的传承。
 
@@ -85,4 +88,4 @@ L1在深度学习中也同样可用，但不如L2普遍。
 *   如果你有明确的模型轻量化、压缩或部署需求，可以尝试**L1正则化**。
 *   **千万不要忽视**Dropout、数据增强等其他正则化技术，它们通常能带来比单纯调大权重衰减系数更显著的效果。
 
-希望这个解释帮你理清了传统机器学习与深度学习之间美妙的联系！
+希望这个解释帮你理清了传统机器学习与深度学习之间美妙的联系！��器学习与深度学习之间美妙的联系！

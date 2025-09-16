@@ -1,5 +1,8 @@
 ---
- title: Generally, DETR 
+title: Generally, DETR
+category: Machine Learning
+tags: [Machine Learning,DETR]
+
 ---
 ### DETR算法：基于Transformer的端到端目标检测新范式
 
@@ -46,4 +49,4 @@ DETR的整体架构简洁明了，主要由以下三个部分组成：
 
 总而言之，DETR的提出为目标检测领域带来了一种全新的思路，推动了该领域向更简洁、更端到端的方向发展。尽管存在一些挑战，但其后续的众多改进模型已经证明了这一方向的巨大潜力和价值。
 
-https://developer.volcengine.com/articles/7382389058494562354#article_title
+https://developer.volcengine.com/articles/7382389058494562354#article_title7382389058494562354#article_title

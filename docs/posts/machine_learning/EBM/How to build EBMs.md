@@ -1,5 +1,8 @@
 ---
- title: How to build EBMs 
+title: How to build EBMs
+category: Machine Learning
+tags: [Machine Learning,EBM]
+
 ---
 Of course, let's break down Energy-Based Models (EBMs) step by step.
 
@@ -66,4 +69,4 @@ A very common and effective training algorithm for this is called **Contrastive 
 
 6.  **Adjust the Weights Again:** Using gradient descent, update the weights of your network to make `E(x')` higher. This is the "push up" part.
 
-By repeatedly performing these two steps—pulling the energy of real data down and pushing the energy of generated data up—the model learns to create an energy landscape where the valleys correspond to the real data distribution. This process effectively trains the model without ever needing to compute the intractable partition function `Z`.
+By repeatedly performing these two steps—pulling the energy of real data down and pushing the energy of generated data up—the model learns to create an energy landscape where the valleys correspond to the real data distribution. This process effectively trains the model without ever needing to compute the intractable partition function `Z`.intractable partition function `Z`.

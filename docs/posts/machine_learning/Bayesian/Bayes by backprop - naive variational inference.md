@@ -1,5 +1,8 @@
 ---
- title: Bayes by backprop - naive variational inference 
+title: Bayes by backprop - naive variational inference
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 ### GPT content:
@@ -20,4 +23,6 @@ ELBO(θ) = E_q[log p(D|w)] - KL(q(w|θ)||p(w))
 在计算了梯度并更新了θ后，我们就得到了新的权重分布q(w|θ)。然后，我们可以在下一次前向传播时，从这个新的分布中采样权重。
 
 这个过程会反复进行，每次迭代都会使得我们的权重分布更接近真实的后验分布，也就是使得ELBO更大。最终，我们得到的不仅是一组能使得预测性能最优的权重，还有一个描述权重不确定性的分布，这对于理解模型的不确定性，防止过拟合，以及在面对新的、未见过的数据时提供有用的不确定性信息是非常有价值的。
+
+据时提供有用的不确定性信息是非常有价值的。
 

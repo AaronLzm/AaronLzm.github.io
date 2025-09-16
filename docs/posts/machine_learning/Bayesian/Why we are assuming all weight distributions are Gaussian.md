@@ -1,5 +1,8 @@
 ---
- title: Why we are assuming all weight distributions are Gaussian 
+title: Why we are assuming all weight distributions are Gaussian
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 
@@ -22,6 +25,11 @@ A:
 对于权重的分布，一种常见的研究方法是在训练过程中对权重进行可视化，观察其分布的变化。这可以帮助我们更好地理解网络的训练过程，以及权重的分布对网络性能的影响。
 
 ---
+
+Q: Are they?
+
+A: They are not, see "Bayesian attention module" 2020 ICLR
+
 
 Q: Are they?
 

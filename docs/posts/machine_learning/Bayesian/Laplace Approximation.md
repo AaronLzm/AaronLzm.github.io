@@ -1,5 +1,8 @@
 ---
- title: Laplace Approximation 
+title: Laplace Approximation
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 
@@ -26,4 +29,4 @@ Laplace Approximation是一种在统计学中常用的近似方法，通常用�
 
 这是因为在长尾分布中，尾部的信息对于整个分布的影响是非常重要的。然而，Laplace Approximation主要关注的是分布的峰值附近的信息，可能会忽略尾部的信息，因此对于长尾分布，Laplace Approximation可能无法提供一个准确的近似。
 
-总的来说，虽然Laplace Approximation是一种实用的近似方法，但是对于长尾分布，可能需要采取其他的近似方法，比如Monte Carlo方法等，来得到更准确的结果。
+总的来说，虽然Laplace Approximation是一种实用的近似方法，但是对于长尾分布，可能需要采取其他的近似方法，比如Monte Carlo方法等，来得到更准确的结果。法等，来得到更准确的结果。

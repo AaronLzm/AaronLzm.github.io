@@ -1,5 +1,8 @@
 ---
- title: Markov Chain Monte Carlo(MCMC) 
+title: Markov Chain Monte Carlo(MCMC)
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 
@@ -42,4 +45,4 @@
     
     $$ \hat{W} = \frac{1}{T-N} \sum_{t=N+1}^{T} W_t $$
     
-    其中$T$是总的迭代次数，$N$是burn-in期的迭代次数，$W_t$是第$t$次迭代的权重值。
+    其中$T$是总的迭代次数，$N$是burn-in期的迭代次数，$W_t$是第$t$次迭代的权重值。�次数，$W_t$是第$t$次迭代的权重值。

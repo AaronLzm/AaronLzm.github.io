@@ -1,5 +1,8 @@
 ---
- title: layer normalization - batch normalization 
+title: layer normalization - batch normalization
+category: Machine Learning
+tags: [Machine Learning,tricks]
+
 ---
 GPT answer:
 
@@ -57,4 +60,4 @@ https://zhuanlan.zhihu.com/p/54530247
 
 [1] Ba J L, Kiros J R, Hinton G E. Layer normalization[J]. arXiv preprint arXiv:1607.06450, 2016.
 
-[2] Ioffe S, Szegedy C. Batch normalization: Accelerating deep network training by reducing internal covariate shift[J]. arXiv preprint arXiv:1502.03167, 2015.
+[2] Ioffe S, Szegedy C. Batch normalization: Accelerating deep network training by reducing internal covariate shift[J]. arXiv preprint arXiv:1502.03167, 2015. covariate shift[J]. arXiv preprint arXiv:1502.03167, 2015.

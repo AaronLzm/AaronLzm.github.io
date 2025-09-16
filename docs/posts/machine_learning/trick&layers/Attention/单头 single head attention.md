@@ -1,5 +1,8 @@
 ---
- title: 单头 single head attention 
+title: 单头 single head attention
+category: Machine Learning
+tags: [Machine Learning,Attention]
+
 ---
 下面我将详细解释**单头注意力（Single-Head Attention）**的数学机制，包含所有关键公式的推导和说明。整个过程分为 5 个步骤：
 
@@ -147,4 +150,4 @@ $$
 
 
 > 总而言之的数学公式：
-### $Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V$
+### $Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V$tion(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_k}})V$

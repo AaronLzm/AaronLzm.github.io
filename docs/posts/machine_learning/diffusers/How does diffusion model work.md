@@ -1,5 +1,8 @@
 ---
- title: How does diffusion model work 
+title: How does diffusion model work
+category: Machine Learning
+tags: [Machine Learning,diffusers]
+
 ---
 
 At its heart, a diffusion model is a generative model, which means its primary purpose is to create new data that is similar to the data it was trained on. In the context of images, this means generating new, realistic-looking pictures. The core idea behind diffusion models is both elegant and surprisingly intuitive: **to learn how to create data, you should first learn how to destroy it.**
@@ -40,4 +43,4 @@ Once the U-Net is well-trained, we can use it to generate new images from scratc
 3.  **Repeat:** We take this new, slightly cleaner image, tell the U-Net we are now at timestep `T-1`, and repeat the process. The U-Net again predicts the noise, and we subtract it.
 4.  **Final Image:** We continue this iterative denoising process all the way down to timestep `t=0`. By this point, if the model is well-trained, we will have a clean, realistic-looking image that is entirely new but shares the characteristics of the images the model was trained on.
 
-In essence, the diffusion model learns the path from noise back to a clear image by mastering the art of predicting and removing that noise, one small step at a time. This gradual, step-by-step refinement is what allows these models to generate such incredibly detailed and coherent images.
+In essence, the diffusion model learns the path from noise back to a clear image by mastering the art of predicting and removing that noise, one small step at a time. This gradual, step-by-step refinement is what allows these models to generate such incredibly detailed and coherent images.e such incredibly detailed and coherent images.

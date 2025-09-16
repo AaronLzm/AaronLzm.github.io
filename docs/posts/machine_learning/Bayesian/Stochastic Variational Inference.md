@@ -1,5 +1,8 @@
 ---
- title: Stochastic Variational Inference 
+title: Stochastic Variational Inference
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 
@@ -56,6 +59,10 @@ $$
 似然函数在参数估计中起着重要的作用。我们通常想要找到一组参数，使得似然函数最大，这就是最大似然估计（Maximum Likelihood Estimation, MLE）。在贝叶斯推断中，似然函数与先验分布相结合，形成了后验分布，这个后验分布描述了在观测到数据之后，参数的不确定性。
 
 需要注意的是，虽然似然函数和概率密度函数看起来非常相似，但它们的角色和含义是不同的。概率密度函数描述了在给定参数的情况下，某个具体的观测值发生的概率，是对观测值的函数；而似然函数则是描述在给定观测值的情况下，参数取某个值的可能性，是对参数的函数。
+
+---
+
+�值的可能性，是对参数的函数。
 
 ---
 

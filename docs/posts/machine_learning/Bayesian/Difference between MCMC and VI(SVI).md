@@ -1,5 +1,8 @@
 ---
- title: Difference between MCMC and VI(SVI) 
+title: Difference between MCMC and VI(SVI)
+category: Machine Learning
+tags: [Machine Learning,Bayesian]
+
 ---
 #Bayes 
 
@@ -55,4 +58,6 @@ MCMC：
     
 
 每种方法都有其优点和缺点。MCMC可以提供精确的后验样本，但计算成本高且收敛慢。变分推断则计算效率高且易于扩展，但可能会引入一些逼近误差，并需要选择一个合适的逼近分布。具体选择哪种方法取决于任务的需求和可用的计算资源。
+
+取决于任务的需求和可用的计算资源。
 
