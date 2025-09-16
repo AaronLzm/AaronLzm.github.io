@@ -22,5 +22,7 @@ def remove_toml(path):
                         f.seek(0)
                         f.write(new)
                         break
+                    else:
+                        break
 
 remove_toml(posts_dir)
