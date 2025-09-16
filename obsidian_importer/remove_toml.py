@@ -9,12 +9,12 @@ def remove_toml(path):
             remove_toml(os.path.join(path,i))
         elif i.endswith(".md"):
             split_counter = 0
-            with open(os.path.join(path,i),"w") as f:
+            with open(os.path.join(path,i),"r+b") as f:
                 while True:
                     line = f.readline()
                     if line == "":
                         break
-                    if line.startswith("+++") or line.startswith("---"):
+                    if line.startswith("---"):
                         split_counter += 1
                     if split_counter == 2:
                         f.seek(f.tell())
