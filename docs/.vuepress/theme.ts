@@ -20,7 +20,7 @@ export default hopeTheme({
   repo: "AaronLzm/AaronLzm.github.io",
 
   docsDir: "docs",
-
+  
   blog: {
     timeline:"Revisiting the past -",
     medias: {
