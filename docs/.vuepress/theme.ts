@@ -167,7 +167,12 @@ export default hopeTheme({
   },
 
   plugins: {
-    blog: true,
+    blog: {
+      excerpt: true,
+      excerptLength: 200,
+      hotReload: true,
+      
+    },
 
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
