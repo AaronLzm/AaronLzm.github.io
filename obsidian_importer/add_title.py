@@ -1,6 +1,8 @@
 import sys,os
+from pathlib import Path
 
-posts_dir = os.path.abspath("../docs/posts/machine_learning")
+
+posts_dir = os.path.abspath("../docs/posts/Causal inference")
 print(posts_dir)
 
 def add_frontmatter(path):
@@ -10,15 +12,16 @@ def add_frontmatter(path):
         elif i.endswith(".md"):
             name = i[:-3]
             print(name)
-            tag = os.path.basename(path)
-            print(tag)
+            tag0 = os.path.basename(path)
+            tag1 = os.path.basename(Path(path).parent)
+            print(tag0,tag1)
             with open(os.path.join(path,i),"r+b") as f:
                 old = f.read()
                 f.seek(0,0)
                 f.write("---\n".encode(encoding="utf-8"))
                 lines = [f"title: {name}\n",\
-                            "category: Machine Learning\n",\
-                            f"tags: [Machine Learning,{tag}]\n"]
+                            "category: Causal inference\n",\
+                            f"tags: [{tag0},{tag1}]\n"]
                 newlines = []
                 for line in lines:
                     newlines.append(line.encode(encoding="utf-8"))

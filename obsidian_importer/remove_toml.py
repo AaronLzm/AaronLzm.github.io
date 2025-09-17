@@ -1,6 +1,6 @@
 import os
 
-posts_dir = os.path.abspath("../docs/posts/machine_learning")
+posts_dir = os.path.abspath("../docs/posts/Causal inference")
 print(posts_dir)
 
 def remove_toml(path):
@@ -9,6 +9,7 @@ def remove_toml(path):
             remove_toml(os.path.join(path,i))
         elif i.endswith(".md"):
             split_counter = 0
+            print(i)
             with open(os.path.join(path,i),"r+b") as f:
                 while True:
                     line = f.readline()
