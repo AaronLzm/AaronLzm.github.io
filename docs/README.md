@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: house
 title: Home
-heroImage: 
+heroImage: #https://avatars.githubusercontent.com/u/13514693?s=400&u=c9045dcc8b2f95cdb2be77dbec13b54ce2ec8e43&v=4
 heroText: Zhimou "Aaron" Li's blog
 tagline: <span id="typed_tag0"></span>
 heroFullScreen: true
@@ -59,5 +59,5 @@ onMounted(() => {
 });
 </script>
 
-<typedContent :strings="['Game is never over','we are not checkmated yet.',]" />
+<typedContent :strings="['Game is never over🎮','we are not checkmated yet.💪',]" />
 
