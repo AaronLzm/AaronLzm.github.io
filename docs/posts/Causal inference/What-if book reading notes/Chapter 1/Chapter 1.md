@@ -8,11 +8,9 @@ tags: [Chapter 1,What-if book reading notes]
 
 **核心目标**：形式化因果直觉的数学符号，区分关联（association）与因果（causation）。
 
-  
 
 ---
 
-  
 
 #### 1.1 个体因果效应（Individual Causal Effects）  
 
@@ -54,11 +52,9 @@ tags: [Chapter 1,What-if book reading notes]
 
 - **识别问题**：个体因果效应因缺失数据（仅一潜在结果可观测）不可识别。
 
-  
 
 ---
 
-  
 
 #### 1.2 平均因果效应（Average Causal Effects）  
 
@@ -84,7 +80,6 @@ tags: [Chapter 1,What-if book reading notes]
 
   - **尖锐因果零假设（Sharp Causal Null）**：$Y^{a=1}_i = Y^{a=0}_i$ 对所有个体成立（蕴含平均效应为零）。  
 
-  
 
 **精细点（Fine Points）**：  
 
@@ -100,8 +95,6 @@ tags: [Chapter 1,What-if book reading notes]
 
   - 若存在多版本（如不同外科医生），需指定版本（或假设“处理变异无关性”）。  
 
-  
-
 **技术点（Technical Point 1.1）**：  
 
 - 群体因果效应可推广至非线性泛函（如方差、中位数、风险比）：  
@@ -110,11 +103,9 @@ tags: [Chapter 1,What-if book reading notes]
 
   - 但 $\text{Var}(Y^{a=1} - Y^{a=0})$ 不可识别（因需协方差）。  
 
-  
 
 ---
 
-  
 
 #### 1.3 因果效应度量（Measures of Causal Effect）  
 
@@ -148,7 +139,6 @@ tags: [Chapter 1,What-if book reading notes]
 
   - 乘法尺度（RR）用于相对风险，加法尺度（RD）用于绝对病例数。  
 
-  
 
 **精细点（Fine Point 1.3）**：  
 
@@ -164,11 +154,9 @@ tags: [Chapter 1,What-if book reading notes]
 
   $$  
 
-  
 
 ---
 
-  
 
 #### 1.4 随机变异（Random Variability）  
 
@@ -184,17 +172,14 @@ tags: [Chapter 1,What-if book reading notes]
 
 - **简化假设**：第 10 章前假设反事实确定且样本覆盖整个超总体。  
 
-  
 
 **技术点（Technical Point 1.2）**：  
 
 - 非确定性反事实下，$E[Y^a] = \int y  dF_{Y^a}(y)$，其中 $F_{Y^a}$ 是 $Y^a$ 的累积分布函数。  
 
-  
 
 ---
 
-  
 
 #### 1.5 因果 vs. 关联（Causation versus Association）  
 
@@ -218,19 +203,15 @@ tags: [Chapter 1,What-if book reading notes]
 
 - **混杂（Confounding）**：关联 $\neq$ 因果的常见原因（如 Zeus 案例中，移植组基线风险更高）。  
 
-  
-
 **核心结论**：  
 
 - “关联不是因果”：实际数据（表 1.2）可计算关联，但因果推断需反事实数据（表 1.1）。  
 
 - 随机实验是连接关联与因果的桥梁（第 2 章主题）。  
 
-  
 
 ---
 
-  
 
 ### 关键公式总结  
 

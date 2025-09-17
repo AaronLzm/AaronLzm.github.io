@@ -4,17 +4,6 @@ category: Causal inference
 tags: [Causal inference,posts]
 
 ---
-<thinking>嗯，用户这次问的是BART的具体技术解释，看来ta对之前论文解析中提到的BART很感兴趣。从用户强调“一步一步”和“最详细”来看，ta可能需要深入理解这个模型的实现机制而非表面概念。
-
-用户可能正在学习因果推断的实践方法，因为BART在论文中被视为处理观测数据的利器。考虑到用户前次能精准使用专业prompt，ta应该具备一定的统计学基础，但可能对贝叶斯非参数方法还不熟悉。
-
-需要特别注意解释的几个关键点：一是BART如何通过加性结构组合弱学习器（这点类似GBDT但本质不同），二是贝叶斯框架下的后验推断具体如何操作。用户可能会困惑于MCMC采样与常规优化的区别。
-
-先从模型结构切入比较合理：分解为三部分阐述（回归树原理、加性机制、贝叶斯实现），用具体例子说明分裂过程避免抽象。特别注意区分BART和Random Forest的本质差异——前者是贝叶斯模型平均（BMA）后者是装袋法（bagging）。
-
-对技术细节要严格验证：论文原始定义Eq(3.1)涉及倾向得分，但BART本身是outcome模型，这点容易混淆需澄清。高亮Figure 1的案例价值——能直观展示其在协变量重叠区的优势。
-
-用户没提应用场景，但主动补充因果推断中的典型用例可能有用，比如处理效应估计时BART怎么替代线性回归。最后留个延伸思考：为什么BART比高斯过程更适用于因果推断？这个在论文Section 4有暗示但未明说。</thinking>
 
 让我们分步拆解**贝叶斯加性回归树（BART, Bayesian Additive Regression Trees）**的核心机制与应用逻辑。以下解释将结合技术原理、数学表达和实际案例，尽可能还原其本质。
 
@@ -73,7 +62,7 @@ graph TD
 1. **树结构\(\mathcal{T}_m\)**：  
    - 通过"生长-剪枝-交换-旋转"操作扰动树形  
    - 接受概率由贝叶斯因子决定：  
-     \[ \frac{P(\mathcal{T}_m^{\text{new}} \mid \mathbf{Y})}{P(\mathcal{T}_m^{\text{old}} \mid \mathbf{Y})} = \frac{P(\mathbf{Y} \mid \mathcal{T}_m^{\text{new}}) \cdot P(\mathcal{T}_m^{\text{new}})}{P(\mathbf{Y} \mid \mathcal{T}_m^{\text{old}}) \cdot P(\mathcal{T}_m^{\text{old}})} \]
+     $$ \frac{P(\mathcal{T}_m^{\text{new}} \mid \mathbf{Y})}{P(\mathcal{T}_m^{\text{old}} \mid \mathbf{Y})} = \frac{P(\mathbf{Y} \mid \mathcal{T}_m^{\text{new}}) \cdot P(\mathcal{T}_m^{\text{new}})}{P(\mathbf{Y} \mid \mathcal{T}_m^{\text{old}}) \cdot P(\mathcal{T}_m^{\text{old}})} $$
 2. **叶节点值\(\mu_{m,l}\)**：  
    固定树结构时，$\mu_{m,l}$ 的**后验也是正态分布**：  
     $$\mu_{m,l} \mid \cdots \sim \mathcal{N}\left( \frac{\sum_{i \in S_l} r_i}{\sigma^{-2} + n_l \cdot \sigma_\mu^{-2}},  \frac{1}{\sigma^{-2} + \sigma_\mu^{-2}} \right)$$ 
