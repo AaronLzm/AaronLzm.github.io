@@ -18,6 +18,7 @@ title: Curriculum Vitae
 Cloud & ML engineer with 5+ years experience. Proven ability to:  
 - Build scalable cloud services (Azure PaaS products/Kubernetes)  
 - Implement ML pipelines for real-world applications
+- Design ETL -> BI pipelines
 - Build devops pipeline   
 - Deliver full-stack applications (Vue.js/Python) 
 
@@ -28,15 +29,15 @@ Cloud & ML engineer with 5+ years experience. Proven ability to:
 ### **Cloud Solutions Engineer** | Microsoft  
 *(2020 - Present)*  
 - **Cloud Service Optimization**  
-  - 900+ successful technical troubleshooting cases for PaaS environments (Azure Functions/App Service/Azure Container app/Azure static web app)
-  - .Net dump analyzation/open source software sample code/project and troubleshooting
-  - Devops deployment troubleshooting  
+  - 900+ successful technical troubleshooting cases for PaaS environments applications, troubleshooting functionalities on data analyzation/machine learning (Azure Functions/App Service/Azure Container app/Azure static web app)
+  - .Net application analysis / open source software(Python/NodeJS) sample project / project and troubleshooting
+  - Devops pipeline design for project deployment and cloud deployment(Bicep/terraform)  
 - **Full-stack Development**  
-  - Built internal workflow system with Vue.js frontend and Python Restful API  
-  - Implemented auto-scaling solutions for containerized applications  
+  - Built internal workflow system with Vue.js frontend and Python Restful API(FastAPI)  
+  - Implemented auto-scaling solutions for containerized applications based on Azure Container app and Azure Function app  
 - **LLM based tooling**
   - Built RAG systems retrieving internal troubleshooting guide using Azure AI search and autogen to boost accuracy
-  - GPT funcs for web browsing, quering databases
+  - GPT functionss for web browsing and querying databases
   - Necessary prompt engineering
 ---
 
