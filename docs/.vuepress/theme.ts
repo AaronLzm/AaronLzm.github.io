@@ -22,7 +22,7 @@ export default hopeTheme({
   docsDir: "docs",
   
   blog: {
-    timeline:"Revisiting the past -",
+    timeline:"Revisiting the past - and learning something new.",
     medias: {
       Email: "mailto:lzm_aaron@outlook.com",
     },
