@@ -36,7 +36,7 @@ export default hopeTheme({
       // sidebar
       sidebar: enSidebar,
 
-      footer: "<a href='mailto:lzm_aaron@outlook.com'>✉️ Drop me a mail!</a>",
+      footer: "<a href='mailto:lzm_aaron@outlook.com'> ✉️ Drop me a mail! </a>",
 
       displayFooter: true,
 
