@@ -7,7 +7,7 @@ export default defineClientConfig({
     // 注册全局组件
     app.component("typedContent", typedContent);
 
-    // 注册路由守卫
+    // 注册路由守卫 打印日志
     router.beforeEach((to) => {
       console.log("before navigation"+"-"+to.fullPath);
     });

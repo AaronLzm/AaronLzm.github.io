@@ -2,7 +2,7 @@
 title: Things That Aren't Doing the Thing
 category: Inspirational
 tags: [Inspirational]
-
+star: true
 ---
 
 Preparing to do the thing isn't <b>doing the thing</b>.
