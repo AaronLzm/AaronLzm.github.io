@@ -11,6 +11,12 @@ Cloud Engineer with 5+ years of experience in building and maintaining scalable 
 
 ## 💼 Professional Experience
 
+### **Devops Engineer** | Bytedance
+*(2025.8 - present)*
+* **CI/CD** Work on daily CI/CD pipeline workflows based on gitlab/gerrit, make sure the integrations/tests/deployments works as expected.
+* **Docker image compilation** Help to tackle docker image compilation problem; customize dockerfiles based on the user's needs.
+* **Overall product satisfaction management** Work on team management, making sure the oncall requests are responded.
+
 ### **Cloud Solutions Engineer** | Microsoft
 *(2020 - 2025.8)*
 

@@ -11,10 +11,18 @@ export const enNavbar = navbar([
       {
         text: "machine learning",
         icon: "pen-to-square",
-        prefix: "machine_learning/",
+        prefix: "Machine_learning/",
         children: [
           { text: "CV", icon: "pen-to-square", link: "CV/" },
           { text: "Bayesian", icon: "pen-to-square", link: "Bayesian/" },
+        ],
+      },
+      {
+        text: "Causal inference",
+        icon: "pen-to-square",
+        prefix: "Causal inference/",
+        children: [
+          { text: "What-if?", icon: "pen-to-square", link: "What-if book reading notes/" },
         ],
       },
     ],
