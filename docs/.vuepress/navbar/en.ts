@@ -25,6 +25,14 @@ export const enNavbar = navbar([
           { text: "What-if?", icon: "pen-to-square", link: "What-if book reading notes/" },
         ],
       },
+      {
+        text: "Inspirational",
+        icon: "pen-to-square",
+        prefix: "Inspirational/",
+        children:[
+          
+        ]
+      },
     ],
   },
 ]);
