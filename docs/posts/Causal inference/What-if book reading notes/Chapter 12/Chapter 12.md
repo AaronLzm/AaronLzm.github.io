@@ -2,8 +2,8 @@
 title: Chapter 12
 category: Causal inference
 tags: [Chapter 12,What-if book reading notes]
-
 ---
+
 以下是《因果推断》第12章的核心内容总结及注意事项，分步梳理关键概念与方法：
 
 ---
