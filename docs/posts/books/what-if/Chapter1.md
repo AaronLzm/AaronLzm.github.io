@@ -4,4 +4,4 @@ category: Books
 tags: [Books]
 ---
 
-<PDF url="//aaronlzm.github.io/files/books_pdf/what-if/Chapter_1.pdf" />
+<PDF url="/books_pdf/what-if/Chapter_1.pdf" />
