@@ -4,4 +4,4 @@ category: Books
 tags: [Books]
 ---
 
-<PDF url="//docs/posts/books_pdf/Chapter_1.pdf" />
+<PDF url="/docs/posts/books_pdf/Chapter_1.pdf" />
