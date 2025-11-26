@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: 正性假设(Positivity Assumption) 是什么？
 category: Causal inference
 tags: [Chapter 2,What-if book reading notes]

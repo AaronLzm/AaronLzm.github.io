@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: BART - Bayesian Additive Regression Trees
 category: Causal inference
 tags: [Causal inference,posts]

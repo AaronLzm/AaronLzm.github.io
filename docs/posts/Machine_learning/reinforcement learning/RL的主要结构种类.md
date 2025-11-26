@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: RL的主要结构种类
 category: Machine Learning
 tags: [Machine Learning,reinforcement learning]
@@ -104,4 +105,4 @@ tags: [Machine Learning,reinforcement learning]
 | :--------- | :---------- | :-------- | :------------- | :------ | :-------------- |
 | **基于价值**   | 学习每个动作的“得分” | Q值 (分数)   | 稳定，样本效率较高      | 难处理连续动作 | DQN, Q-Learning |
 | **基于策略**   | 直接学习“行为指南”  | 动作的概率     | 能处理连续动作，能学随机策略 | 方差大，不稳定 | REINFORCE, PPO  |
-| **演员-评论家** | 演员行动，评论家指导  | 动作概率+状态价值 | 结合两者优点，稳定且高效   | 结构复杂    | A2C, SAC, PPO   |�   | 结构复杂    | A2C, SAC, PPO   |
+| **演员-评论家** | 演员行动，评论家指导  | 动作概率+状态价值 | 结合两者优点，稳定且高效   | 结构复杂    | A2C, SAC, PPO   |�   | 结构复杂    | A2C, SAC, PPO   |

@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: layer normalization - batch normalization
 category: Machine Learning
 tags: [Machine Learning,tricks]

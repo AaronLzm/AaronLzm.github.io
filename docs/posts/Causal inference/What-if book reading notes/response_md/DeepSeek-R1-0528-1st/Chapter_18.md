@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: Chapter_18
 category: Causal inference
 tags: [DeepSeek-R1-0528-1st,response_md]

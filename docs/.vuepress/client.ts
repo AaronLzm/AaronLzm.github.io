@@ -1,6 +1,5 @@
 import { defineClientConfig } from "vuepress/client";
 import typedContent from "./components/typedContent.vue";
-import { RefSymbol } from "@vue/reactivity";
 
 export default defineClientConfig({
   // 客户端增强

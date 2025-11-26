@@ -1,4 +1,5 @@
 ---
+date: 2025-09-11 16:03:52
 title: What does the U-net do in diffusion models?
 category: Machine Learning
 tags: [Machine Learning,diffusers]

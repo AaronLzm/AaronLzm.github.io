@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: Chapter 16
 category: Causal inference
 tags: [Chapter 16,What-if book reading notes]

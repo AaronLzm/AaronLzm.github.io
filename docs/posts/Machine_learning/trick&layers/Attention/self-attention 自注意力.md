@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: self-attention 自注意力
 category: Machine Learning
 tags: [Machine Learning,Attention]
@@ -87,4 +88,4 @@ Self-Attention 让序列中的**每一个元素**（例如句子中的每一个�
 | **Q, K, V 来源** | `Q` 来自序列A，`K, V` 来自序列B | `Q, K, V` 全部来自同一个序列X |
 | **主要目的** | **对齐**（Alignment） | **表征学习**（Representation Learning） |
 
-总而言之，**Self-Attention是一种让序列模型能够高效、并行地捕捉序列内部长距离依赖关系的机制，它是Transformer架构的核心，也是现代大语言模型理解语言上下文的基础。**�言模型理解语言上下文的基础。**
+总而言之，**Self-Attention是一种让序列模型能够高效、并行地捕捉序列内部长距离依赖关系的机制，它是Transformer架构的核心，也是现代大语言模型理解语言上下文的基础。**�言模型理解语言上下文的基础。**

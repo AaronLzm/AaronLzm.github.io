@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: Transformer it self
 category: Machine Learning
 tags: [Machine Learning,transformers]

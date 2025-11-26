@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: multi head attention
 category: Machine Learning
 tags: [Machine Learning,Attention]
@@ -197,4 +198,4 @@ $$
    \text{LayerOutput} = \text{LayerNorm}(X + \text{MultiHead}(X))
    $$
 
-多头注意力通过这种"分治策略"，显著提升了模型捕捉复杂依赖关系的能力，成为 Transformer 架构的核心创新。� Transformer 架构的核心创新。
+多头注意力通过这种"分治策略"，显著提升了模型捕捉复杂依赖关系的能力，成为 Transformer 架构的核心创新。� Transformer 架构的核心创新。

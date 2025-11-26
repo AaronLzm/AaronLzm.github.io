@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: 详细解释一下标准化方法 和参数化g公式的原理和使用方法及注意事项
 category: Causal inference
 tags: [Chapter 13,What-if book reading notes]

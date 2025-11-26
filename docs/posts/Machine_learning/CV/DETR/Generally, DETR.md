@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: Generally, DETR
 category: Machine Learning
 tags: [Machine Learning,DETR]

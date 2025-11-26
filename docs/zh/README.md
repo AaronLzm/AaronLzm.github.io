@@ -1,4 +1,5 @@
 ---
+date: 2025-07-01 00:19:01
 home: true
 layout: Blog
 icon: house

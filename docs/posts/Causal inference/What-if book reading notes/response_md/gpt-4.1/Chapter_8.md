@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: Chapter_8
 category: Causal inference
 tags: [gpt-4.1,response_md]
@@ -97,7 +98,7 @@ Bias arises from conditioning on a collider – a variable that is a **common ef
 - 当存在删失（随访丢失）时，仅对未删失者($C=0$)分析会引入选择偏倚。
 - 正确估计$A$对$Y$的因果效应，应该关注：
   $$
-  \Pr(Y^{a=1, c=0}=1) \quad 与 \quad \Pr(Y^{a=0, c=0}=1)
+  \Pr(Y^{a=1, c=0}=1) \quad \text{与} \quad \Pr(Y^{a=0, c=0}=1)
   $$
 - **把删失看作“处理”**：需对$A$和$C$都满足**可交换性、正性、一致性**假设。
 

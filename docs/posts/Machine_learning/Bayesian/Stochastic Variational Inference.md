@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: Stochastic Variational Inference
 category: Machine Learning
 tags: [Machine Learning,Bayesian]
@@ -62,7 +63,7 @@ $$
 
 ---
 
-�值的可能性，是对参数的函数。
+�值的可能性，是对参数的函数。
 
 ---
 

@@ -1,4 +1,5 @@
 ---
+date: 2025-11-24 15:00:50
 title: Horvitz-Thompson estimators是什么？
 category: Causal inference
 tags: [Chapter 12,What-if book reading notes]

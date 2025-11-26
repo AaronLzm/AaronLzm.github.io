@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: G估计步骤
 category: Causal inference
 tags: [Chapter 14,What-if book reading notes]

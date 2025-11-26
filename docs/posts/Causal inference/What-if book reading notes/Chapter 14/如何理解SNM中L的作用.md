@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: 如何理解SNM中L的作用
 category: Causal inference
 tags: [Chapter 14,What-if book reading notes]

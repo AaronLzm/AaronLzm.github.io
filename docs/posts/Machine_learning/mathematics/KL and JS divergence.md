@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: KL and JS divergence
 category: Machine Learning
 tags: [Machine Learning,mathematics]
@@ -74,4 +75,4 @@ $$ D_{JS}(P \parallel Q) = \frac{1}{2} D_{KL}(P \parallel M) + \frac{1}{2} D_{KL
         $D_{KL}(Q \parallel M) = 0 * \log(0/0.45) + 0.1 * \log(0.1/0.1) + 0.9 * \log(0.9/0.45) \approx 0 + 0 + 0.9 = 0.9$
     - 最终 $D_{JS}(P \parallel Q) = \frac{1}{2}(0.9 + 0.9) = 0.9$ （或根据对数底不同，是一个有界值）
 
-这个例子清晰地展示了JS散度在处理零概率问题和不对称性上的巨大优势。��和不对称性上的巨大优势。
+这个例子清晰地展示了JS散度在处理零概率问题和不对称性上的巨大优势。��和不对称性上的巨大优势。

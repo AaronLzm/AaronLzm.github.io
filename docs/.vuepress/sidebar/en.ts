@@ -20,7 +20,7 @@ export const enSidebar = sidebar({
     },
     "intro",
     {
-      text: "Slides",
+      text: "Slides demo",
       icon: "person-chalkboard",
       link: "https://ecosystem.vuejs.press/plugins/markdown/revealjs/demo.html",
     },

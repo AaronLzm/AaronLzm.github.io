@@ -1,4 +1,5 @@
 ---
+date: 2025-09-10 20:49:27
 title: What is uncertainty in neural networks
 category: Machine Learning
 tags: [Machine Learning,Bayesian]
@@ -22,4 +23,4 @@ tags: [Machine Learning,Bayesian]
     
     log P(D|w) = Σ_{i} log P(y_i|f(x_i), w)
     
-    在这个公式中，P(y_i|f(x_i), w)是在给定输入x_i和权重w的情况下，输出y_i的概率分布。我们可以通过最小化这个对数似然性来估计模型的参数和数据的不确定性。��性来估计模型的参数和数据的不确定性。
+    在这个公式中，P(y_i|f(x_i), w)是在给定输入x_i和权重w的情况下，输出y_i的概率分布。我们可以通过最小化这个对数似然性来估计模型的参数和数据的不确定性。��性来估计模型的参数和数据的不确定性。

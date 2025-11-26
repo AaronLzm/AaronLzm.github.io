@@ -94,6 +94,10 @@ export default hopeTheme({
 
   // These features are enabled for demo, only preserve features you need here
   markdown: {
+    highlighter:{
+      type:"shiki",
+      langs: ['ts', 'json', 'vue', 'md', 'bash', 'diff', "python","py"],
+    },
     revealjs: true,
     footnote: true,
     hint: true, 
@@ -181,6 +185,12 @@ export default hopeTheme({
     //   provider: "Waline",
     //   serverURL: "https://waline-comment.vuejs.press",
     // },
+
+    git:{},
+
+    sitemap:{
+      changefreq: "daily",
+    },
 
     slimsearch:{
       locales: {

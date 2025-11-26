@@ -1,4 +1,5 @@
 ---
+date: 2025-11-24 14:03:00
 title: Things That Aren't Doing the Thing
 category: Inspirational
 tags: [Inspirational]

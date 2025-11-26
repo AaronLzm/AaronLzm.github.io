@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: Bayesian causal inference, a critical review
 category: Causal inference
 tags: [Causal inference,posts]

@@ -1,4 +1,5 @@
 ---
+date: 2025-09-17 11:19:05
 title: Chapter 1
 category: Causal inference
 tags: [Chapter 1,What-if book reading notes]
