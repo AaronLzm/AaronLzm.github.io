@@ -13,8 +13,10 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-append-date": "^2.0.0-rc.118",
     "@vuepress/plugin-blog": "2.0.0-rc.118",
     "@vuepress/plugin-revealjs": "2.0.0-rc.118",
+    "@vuepress/plugin-shiki": "^2.0.0-rc.118",
     "@vuepress/plugin-sitemap": "^2.0.0-rc.118",
     "@vuepress/plugin-slimsearch": "2.0.0-rc.118",
     "katex": "^0.16.11",
