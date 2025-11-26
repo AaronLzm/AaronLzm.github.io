@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { sitemapPlugin } from '@vuepress/plugin-sitemap'
 
 import theme from "./theme.js";
 
@@ -22,4 +23,11 @@ export default defineUserConfig({
 
   // Enable it with pwa
   // shouldPrefetch: false,
+
+  plugins:[
+    sitemapPlugin({
+      hostname: "aaronlzm.github.io",
+      changefreq: "daily",
+    }),
+  ],
 });
