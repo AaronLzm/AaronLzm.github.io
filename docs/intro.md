@@ -27,8 +27,11 @@ Cloud & ML engineer with 5+ years experience. Proven ability to:
 
 ## 💼 Professional Experience  
 
+### **Devops Engineer** | Bytedance
+*(2025.8 - Present)*
+
 ### **Cloud Solutions Engineer** | Microsoft  
-*(2020 - Present)*  
+*(2020 - 2025.8)*  
 - **Cloud Service Optimization**  
   - 900+ successful technical troubleshooting cases for PaaS environments applications, troubleshooting functionalities on data analyzation/machine learning (Azure Functions/App Service/Azure Container app/Azure static web app)
   - .Net application analysis / open source software(Python/NodeJS) sample project / project and troubleshooting
