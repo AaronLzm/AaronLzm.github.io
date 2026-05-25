@@ -29,7 +29,7 @@ jobs:
       - name: Install Deps
         run: |
           corepack enable
-          npm ci
+          npm install
 
       - name: Build Docs
         env:
