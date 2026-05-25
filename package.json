@@ -8,8 +8,7 @@
     "docs:build": "vuepress-vite build ./docs",
     "docs:clean-dev": "vuepress-vite dev ./docs --clean-cache",
     "docs:dev": "vuepress-vite dev ./docs",
-    "docs:update-package": "npx vp-update",
-    "fuck": "echo fuck"
+    "docs:update-package": "npx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
